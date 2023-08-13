@@ -1,0 +1,14 @@
+embedding_size: 64
+feat_embed_dim: 64
+cf_model: lightgcn
+
+# n_ui_layers: [1, 2, 3, 4]
+# n_mm_layers: [1, 2, 3, 4]
+# n_hyper_layer: [1, 2, 3, 4]
+# hyper_num: [2, 4, 8, 16, 32, 64, 128, 256]
+# keep_rate: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+# alpha: [0.0, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+# cl_weight : [0.0, 1e-06, 1e-05, 1e-04, 1e-03, 1e-02, 0.1]
+# reg_weight : [0.0, 1e-06, 1e-05, 1e-04, 1e-03, 1e-02, 0.1]
+
+hyper_parameters: ["n_ui_layers", "n_mm_layers", "n_hyper_layer", "hyper_num", "keep_rate",  "alpha", "cl_weight", "reg_weight"]
