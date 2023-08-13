@@ -7,9 +7,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 from utils.abstract_recommender import GeneralRecommender
 
-class LGMGN(GeneralRecommender):
+class LGMRec(GeneralRecommender):
     def __init__(self, config, dataset):
-        super(LGMGN, self).__init__(config, dataset)
+        super(LGMRec, self).__init__(config, dataset)
 
         self.embedding_dim = config['embedding_size']
         self.feat_embed_dim = config['feat_embed_dim']
