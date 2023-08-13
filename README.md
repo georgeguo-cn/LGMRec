@@ -1,5 +1,5 @@
-# LGMGN
-Pytorch implementations for "LGMGN: Local and Global Multimodal Graph Network for Recommendation"  
+# LGMRec
+Pytorch implementations for "LGMRec: Local and Global Graph Learning for Multimodal Recommendation"  
 
 ## Data  
 The interaction data is shared at `data/`.
