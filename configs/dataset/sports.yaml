@@ -15,7 +15,7 @@ text_feature_file: 'text_feat.npy'
 field_separator: "\t"
 
 # n_ui_layers: [1, 2, 3, 4]
-n_ui_layers: [2]
+n_ui_layers: [4]
 # n_mm_layers: [0, 1, 2, 3, 4]
 n_mm_layers: [2]
 # n_hyper_layer: [1, 2, 3, 4]

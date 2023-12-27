@@ -5,7 +5,7 @@ import scipy.sparse as sp
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from utils.abstract_recommender import GeneralRecommender
+from common.abstract_recommender import GeneralRecommender
 
 class LGMRec(GeneralRecommender):
     def __init__(self, config, dataset):
