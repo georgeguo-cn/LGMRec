@@ -1,7 +1,7 @@
 ## LGMRec (AAAI'24)
 
 This is the Pytorch implementation for our AAAI 2024 paper:
->Zhiqiang Guo, Jianjun Li, Guohui Li, Chaoyang Wang, Si Shi, Bin Ruan. LGMRec: Local and Global Graph Learning for Multimodal Recommendation. In AAAI 2024. [Paper](#)
+>Zhiqiang Guo, Jianjun Li, Guohui Li, Chaoyang Wang, Si Shi, Bin Ruan. LGMRec: Local and Global Graph Learning for Multimodal Recommendation. In AAAI 2024. [Paper](https://arxiv.org/abs/2312.16400)
 
 ### Overview
 
