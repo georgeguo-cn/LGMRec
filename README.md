@@ -3,6 +3,8 @@
 This is the Pytorch implementation for our AAAI 2024 paper:
 >Zhiqiang Guo, Jianjun Li, Guohui Li, Chaoyang Wang, Si Shi, Bin Ruan. LGMRec: Local and Global Graph Learning for Multimodal Recommendation. In AAAI 2024. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28688)
 
+Notice: The results of the baseline MMGCN have been updated in our [new version](https://arxiv.org/abs/2312.16400).
+
 ### Overview
 
 ![Overview of LGMRec](img/framework.jpg)
@@ -21,7 +23,7 @@ The data contains text and image features extracted from Sentence-Transformers a
 1. Put your downloaded data (e.g. baby) under `data/` dir.
 2. Run `train.sh` to train LGMRec:
   `bash train.sh`
-You may specify other parameters in CMD or config with `configs/model/*.yaml` and `configs/dataset/*.yaml`.
+You may specify other parameters in CMD or config with `configs/model/*.yaml` and `configs/dataset/*.yaml`. 
 
 ### Citation
 
