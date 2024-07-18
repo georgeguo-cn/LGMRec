@@ -115,7 +115,7 @@ class LGMRec(GeneralRecommender):
             it_hyper = torch.mm(self.text_embedding.weight, self.t_hyper)
             ut_hyper = torch.mm(self.adj, it_hyper)
             it_hyper = F.gumbel_softmax(it_hyper, self.tau, dim=1, hard=False)
-            uv_hyper = F.gumbel_softmax(ut_hyper, self.tau, dim=1, hard=False)
+            ut_hyper = F.gumbel_softmax(ut_hyper, self.tau, dim=1, hard=False)
         
         # CGE: collaborative graph embedding
         cge_embs = self.cge()
