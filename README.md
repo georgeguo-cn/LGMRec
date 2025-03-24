@@ -28,7 +28,7 @@ You may specify other parameters in CMD or config with `configs/model/*.yaml` an
 ### Citation
 
     @inproceedings{guo2024lgmrec,
-    author = {Zhiqiang Guo, Jianjun Li, Guohui Li, Chaoyang Wang, Si Shi, Bin Ruan},
+    author = {Zhiqiang Guo and Jianjun Li and Guohui Li and Chaoyang Wang and Si Shi and Bin Ruan},
     title = {LGMRec: Local and Global Graph Learning for Multimodal Recommendation},
     booktitle = {Proceedings of AAAI 2024},
     pages = {8454-8462},
