@@ -34,3 +34,5 @@ You may specify other parameters in CMD or config with `configs/model/*.yaml` an
     pages = {8454-8462},
     year = {2024}
     }
+
+The code has been integrated into the [MMRec](https://github.com/enoche/MMRec) repository.
